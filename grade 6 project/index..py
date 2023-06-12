@@ -150,6 +150,7 @@ else:
 
 #practice questions for students
 # write the outputs of the following programs.
+#q.1
 books=9
 price=135
 money=1500
@@ -160,3 +161,63 @@ if money !=0 :
     print('i can buy chocolates')
 else:
     print('i dont have any money')
+'''
+ans:-
+The output of the program is: 
+i can buy chocolates
+'''
+
+#Q.2 
+grade = 5
+
+grade=6
+
+print(grade)
+'''
+ans:-
+The output of the program is: 
+6
+'''
+
+#Q.3
+name1 = 'jisan'
+name2='tavis'
+
+name1=name2
+print(name2)
+'''
+ans:-
+The output of the program is: 
+tavis
+'''
+
+#Q.4
+name1 = 'jisan'
+name2= 'tavis'
+
+name1=name2
+print(name1)
+'''
+ans:-
+The output of the program is: 
+tavis
+'''
+
+#Q.5
+productPrice =1200
+
+print("Items over 1000 rupees are 50 percent off !!")
+
+if productPrice > 1000:
+    print('so items are half price')
+
+'''
+ans:-
+The output of the program is: 
+Items over 1000 rupees are 50 percent off !!
+so items are half price
+
+'''
+
+
+

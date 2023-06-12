@@ -249,4 +249,16 @@ def grade7(total_students):
 
 print(grade7(10))
 
+
 #talking about git and github
+def check():
+    if False:
+        print('right')
+    else:
+        print('wrong')
+
+print('function')
+print('hhhhhh')
+check()
+print('i am don')
+

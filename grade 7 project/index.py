@@ -248,3 +248,5 @@ def grade7(total_students):
     return total_students * 10
 
 print(grade7(10))
+
+#talking about git and github

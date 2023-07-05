@@ -234,9 +234,45 @@ for i in range(0,2):
 '''
 # function
 # 1. built-in function  2. user defined function
-
+'''
 def grade8():
     print('there are alotogether 12 students')
 grade8()
+'''
 
- 
+#practice questions.
+#1. write a program to input two different numbers and find the greatest among them.
+#2. write a program to check whether a number is postive or negative or zero.
+#3 write the output of the program:
+youme=[2,7,8]
+for i in range(0,len(youme)):
+    if not youme[i] ==7: 
+        print(youme[i])
+
+#.4 Write the output of the following program:
+fruits=['mango','apple','grapes']
+colors=['yellow','red','green']
+
+for i in range(0,3):
+    print(fruits[i] + ' color is ' + colors[i])
+
+#5.Write the output of the following program:
+ageList=[23, 16, 18, 17]
+for age in range(0,len(ageList)):
+    if ageList[age] >= 18:
+        print('you are eligible for vote')
+    else:
+        print('you are not eligible for vote') 
+
+
+#6.
+colors1 = ['red', 'white', 'white', 'red', 'red','white'] 
+colors2 = ['red', 'white', 'white', 'white', 'red','red'] 
+count=0
+for i in range(0,5):
+    if  not colors1[i]==colors2[i]:
+        count=count+1   
+
+print(count)
+print('pairs have diff colors')
+

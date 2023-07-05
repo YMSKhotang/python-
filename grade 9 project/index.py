@@ -225,7 +225,7 @@ for i in range(0,3):
 
 '''
 #functions
-
+'''
 def grade9(firstname, lastname):
     print('my name is ' + firstname + ' ' + lastname)
 
@@ -244,9 +244,86 @@ print('its so hot')
 print('its over')
 sushila()
 print('aaisa lai makhhai pardim')
+'''
+#
+'''
+def order(num):
+    total=0
+    for i in range(0,num):
+        total= total + prices[i]
+    return total
 
 
+prices=[900,300,700]
 
+menuList=['ramen','potstickers','fried rice']
+menuCount =0
+for menu in menuList:
+    print(menu)
+    menuCount=menuCount + 1
+
+print('thats'+ str(menuCount) + 'items for a  total of' + str(order(menuCount)) + 'yen')
+'''
+
+'''
+def comparision(num1,num2):
+    if num1>num2:
+        maxNum= num1
+    else:
+        maxNum=num2
+    return maxNum
+
+print(comparision(10,100))
+
+
+'''
+
+
+#
+'''
+def output():
+    print('you have money left over')
+
+prices = [100,500,100]
+
+money =1000
+
+for i in prices:
+    money = money - i
+    print(money)
+'''
+
+#random integer
+import random
+import math
+
+#random.randint(0,9) will print random number in range of 0 to 9
+grade9= random.randint(1,13)
+#print(grade9)
+
+#random.random() will print a random floating number between 0 and 1.
+number=random.random()
+#print(number)
+
+#math.floor() will rounds a number DOWN to the nearest integer, if necessary,
+#  and returns the result.
+
+result=math.floor(number)
+#print(result)
+
+
+import random
+import math
+
+a=''
+
+for i in range(0,3):
+    a= a + str(math.floor(random.random() *9 +1 ))
+    #a = '' + '1'  --> '1'
+    #a = '1' + '2' -->  '12'
+    #a = '12' + '3' --> '123'   
+    
+print(a)
 
 
 

@@ -119,7 +119,7 @@ else:
 '''
 
 #practice
-'''
+
 time=12
 
 
@@ -132,8 +132,7 @@ else:
     print('second period')
 
 print('learning python')
-
-'''
+ 
 
 #if elif else
 #write a program to check whether a number is positive, negative or zero.
@@ -219,5 +218,41 @@ so items are half price
 
 '''
 
+#1. write a program to input two different numbers and find the greatest among them.
+#2. write a program to check whether a number is odd or even.
+
+#3. write the output of the following program:
+score = 70
+average = 65
+if score > average:
+    print('you did well')
+else:
+    print('try little harder')
+
+#4. write the output of the following program:
+
+num1= 10
+num2= 20
+
+num1= num1 + num1
+if num1 == num2 :
+    print('num1 and num2 are same')
+else:
+    print('num1 and num2 are different')
+
+#5. 
+appleWeight=400
+orangeWeight=300
+
+if appleWeight < orangeWeight:
+    print('orange are heavier')
+else:
+    print('apples are heavier')
 
 
+#Practical Exam
+#1. write a program to input two different numbers and find the greatest among them.
+#2. write a program to check whether a number is odd or even.
+#3. Write a program to input two different number and find sum and difference.
+#4. write a program to find the area of rectangle.
+#5. Write a program to find simple ineterst. [ si = (  principal *time* rate)/100]

@@ -119,7 +119,7 @@ else:
 '''
 
 #practice
-'''
+
 time=12
 
 
@@ -132,8 +132,7 @@ else:
     print('second period')
 
 print('learning python')
-
-'''
+ 
 
 #if elif else
 #write a program to check whether a number is positive, negative or zero.
@@ -150,6 +149,7 @@ else:
 
 #practice questions for students
 # write the outputs of the following programs.
+#q.1
 books=9
 price=135
 money=1500
@@ -160,3 +160,99 @@ if money !=0 :
     print('i can buy chocolates')
 else:
     print('i dont have any money')
+'''
+ans:-
+The output of the program is: 
+i can buy chocolates
+'''
+
+#Q.2 
+grade = 5
+
+grade=6
+
+print(grade)
+'''
+ans:-
+The output of the program is: 
+6
+'''
+
+#Q.3
+name1 = 'jisan'
+name2='tavis'
+
+name1=name2
+print(name2)
+'''
+ans:-
+The output of the program is: 
+tavis
+'''
+
+#Q.4
+name1 = 'jisan'
+name2= 'tavis'
+
+name1=name2
+print(name1)
+'''
+ans:-
+The output of the program is: 
+tavis
+'''
+
+#Q.5
+productPrice =1200
+
+print("Items over 1000 rupees are 50 percent off !!")
+
+if productPrice > 1000:
+    print('so items are half price')
+
+'''
+ans:-
+The output of the program is: 
+Items over 1000 rupees are 50 percent off !!
+so items are half price
+
+'''
+
+#1. write a program to input two different numbers and find the greatest among them.
+#2. write a program to check whether a number is odd or even.
+
+#3. write the output of the following program:
+score = 70
+average = 65
+if score > average:
+    print('you did well')
+else:
+    print('try little harder')
+
+#4. write the output of the following program:
+
+num1= 10
+num2= 20
+
+num1= num1 + num1
+if num1 == num2 :
+    print('num1 and num2 are same')
+else:
+    print('num1 and num2 are different')
+
+#5. 
+appleWeight=400
+orangeWeight=300
+
+if appleWeight < orangeWeight:
+    print('orange are heavier')
+else:
+    print('apples are heavier')
+
+
+#Practical Exam
+#1. write a program to input two different numbers and find the greatest among them.
+#2. write a program to check whether a number is odd or even.
+#3. Write a program to input two different number and find sum and difference.
+#4. write a program to find the area of rectangle.
+#5. Write a program to find simple ineterst. [ si = (  principal *time* rate)/100]

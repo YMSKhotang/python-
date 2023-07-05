@@ -1,5 +1,5 @@
 #function
-
+'''
 nicknames='verygood'
 def grade9(name,age):
     
@@ -11,7 +11,8 @@ price= grade9('verygood', '12')
 grade9('sabitra', '14')
 grade9('deepa','14')
 
-'''
+
+
 def grade8(name):
     print('i am ' + name)
 grade8('roshan')
@@ -101,6 +102,16 @@ b=14
 difference=agedifference(a,b)
 print("the age diff. is"+str(difference) + "year(s)")
 '''
+#Q.10
+'''
+def add(num1,num2):
+    text='calculated result'
+    return num1+num2
+text='is the answer'
+ans=add(5,7)
+print(str(ans) + text)
+'''
+
 #Q.11
 '''
 def sumTotal():
@@ -168,4 +179,7 @@ number=random.random()
 result=math.floor(number*10+1)
 #print(result)
 
-
+a=''
+for i in range(0,3):
+    a=  a+ str(math.floor(random.random() * 9) +1)
+print(a)

@@ -238,13 +238,51 @@ else:
 #functions
 
 
-def grade7(firstName, lastName ):
-    print('my name is ' + firstName +' ' + lastName )
+def grade7(firstName, lastName ,grade):
+    print('my name is ' + firstName + ' ' +  lastName )
+    print(' i read in grade ' + str(grade))
 
-grade7('bibesh','rai')
+grade7('bibesh','rai',7)
 
 
 def grade7(total_students):
     return total_students * 10
 
-print(grade7(10))
+#print(grade7(10))
+
+
+#talking about git and github
+'''
+def check():
+    if False:
+        print('right')
+    else:
+        print('wrong')
+
+print('function')
+print('hhhhhh')
+check()
+print('i am don')
+'''
+
+def order(num):
+    total=0
+
+    for i in range(0,num):
+        total=total + prices[i]
+
+    return total
+
+menuList=['ramen','poststicker','fried rice']
+prices=[900,300,700]
+menuCount = 0
+
+for menu in menuList:
+    print(menu)
+    menuCount = menuCount+1
+
+print('thats' +str(menuCount) + 'item total of' + str(order(menuCount)) + 'yen' )
+
+
+
+

@@ -9,7 +9,7 @@ last_name='didi'
 #print(name * 5)
  
 
-#data types
+#data types 
 '''
 1. string --> str  
 ex:- "apple"
@@ -264,6 +264,7 @@ for menu in menuList:
 
 print('thats'+ str(menuCount) + 'items for a  total of' + str(order(menuCount)) + 'yen')
 '''
+#
 
 '''
 def comparision(num1,num2):
@@ -311,7 +312,7 @@ number=random.random()
 result=math.floor(number)
 #print(result)
 
-
+'''
 import random
 import math
 
@@ -324,6 +325,98 @@ for i in range(0,3):
     #a = '12' + '3' --> '123'   
     
 print(a)
+
+'''
+
+hits = [70,100,80,110]
+hitCount = 0
+maxHits = 0
+
+for i in range (0,4):
+    hitCount = hitCount + hits[i]
+    #--> hitCount = 0 + 70 --> 70
+    #--> hitCount = 70 + 100 --> 170
+    #--> hitCount = 170 + 80 --> 250
+    #--> hitCount = 290 + 60  --> 310
+
+    if maxHits < hits[i]:
+        maxHits = hits[i]
+
+    #  if 0 < 70 :
+    #    maxHits = 70
+
+    # if 70 < 100 :
+    #   maxHits = 100
+
+    #if 100 < 80:
+    #   nothing
+
+    #if 100 < 110:
+    #   110
+
+
+#hitCount= 500
+#maxHits = 210
+'''
+    if maxHits > 200 and hitCount > 400 :
+        print('greatest player')
+    else:
+        print('average player')
+
+    '''
+
+#
+'''
+def say(susana):
+    print(susana + '!')
+
+if False:
+    greeting = 'welcome'
+else:
+    greeting = 'thank you'
+
+say(greeting)
+
+'''
+#ggg
+'''
+def output():
+    print('you have money left over')
+
+prices = [100, 500, 1000]
+money = 1000
+
+for price in prices:
+    money = money - price
+    if money > 0:
+        print('you have '+ str(money) + 'yen left')
+        output()
+    else:
+        print('i am done shopping')
+       ''' 
+
+import random
+import math
+
+grade9= random.randint(1,1000)
+#print(grade9)
+
+# zero to 1
+number=random.random()
+#print(number)
+
+#print(math.floor(4.5))
+
+randNum = ' '
+
+for i in range(0,3):
+    randNum = randNum + str(math.floor(random.random()* 9) + 1)
+    #index 0--> randNum = ' ' +  str(9) --> '9'
+    #index 1 --> randNum = '9 ' + str(9)  --> '99'
+    #index 2 --> randNum = ' 99' +  str(9)  -> '999'
+
+    print(randNum)
+
 
 
 

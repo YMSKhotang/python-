@@ -4,12 +4,12 @@ Variables are the names which stores the value.
 eg: susam = 9
 '''
 
-
+'''
 name="merisha"
 grade=6
 students_of_grade6 = 16.5
 allPass = False
-
+'''
 #data type
 '''
 print(type(name))
@@ -98,30 +98,28 @@ print(difference)
 
 
 
-#Tofas practice
+#Tofas Test
 '''
-productPrice =1200
+#1. Write the output of the following program:
+productPrice =1230
 
 print("Items over 1000 yen are 50 percent off !!")
 
 if productPrice > 1000:
     print('so items are half price')
 
-'''
-'''
-apple=12
-orange=7
+#2. Write the output of the following programs:
+apple=15
+orange=19
 
 if apple>orange :
     print('more apples')
 else:
     print('more oranges')
-'''
 
-#practice
+#3. Write the output of the following programs:
 
 time=12
-
 
 if time>12:
     print('i am hungry right now')
@@ -133,105 +131,49 @@ else:
 
 print('learning python')
  
-
-#if elif else
-#write a program to check whether a number is positive, negative or zero.
-'''
-num=int(input('enter a number:  '))
-
-if num > 0:
-    print('number is positive')
-elif num ==0:
-    print('the number is zero')
-else:
-    print('number is negative')
-'''
-
-#practice questions for students
-# write the outputs of the following programs.
-#q.1
+#4. write the outputs of the following program.
 books=9
 price=135
 money=1500
 
 money=money -books*price
 
-if money !=0 :
+if money != 0 :
     print('i can buy chocolates')
 else:
     print('i dont have any money')
-'''
-ans:-
-The output of the program is: 
-i can buy chocolates
-'''
 
-#Q.2 
+#Q.5 Write the output of the following program: 
 grade = 5
 
 grade=6
 
 print(grade)
-'''
-ans:-
-The output of the program is: 
-6
-'''
 
-#Q.3
+#Q.6 Write the output of the following program:
 name1 = 'jisan'
 name2='tavis'
 
-name1=name2
+name1=name2 
 print(name2)
-'''
-ans:-
-The output of the program is: 
-tavis
-'''
 
-#Q.4
+#Q.7 Write the output of the following program:
 name1 = 'jisan'
 name2= 'tavis'
 
 name1=name2
 print(name1)
-'''
-ans:-
-The output of the program is: 
-tavis
-'''
 
-#Q.5
-productPrice =1200
-
-print("Items over 1000 rupees are 50 percent off !!")
-
-if productPrice > 1000:
-    print('so items are half price')
-
-'''
-ans:-
-The output of the program is: 
-Items over 1000 rupees are 50 percent off !!
-so items are half price
-
-'''
-
-#1. write a program to input two different numbers and find the greatest among them.
-#2. write a program to check whether a number is odd or even.
-
-#3. write the output of the following program:
-score = 70
-average = 65
-if score > average:
+#8. write the output of the following program:
+marks = 45
+average = 60
+if marks > average:
     print('you did well')
 else:
     print('try little harder')
 
-#4. write the output of the following program:
-
-num1= 10
+#9. write the output of the following program:
+num1= 12
 num2= 20
 
 num1= num1 + num1
@@ -240,19 +182,131 @@ if num1 == num2 :
 else:
     print('num1 and num2 are different')
 
-#5. 
-appleWeight=400
-orangeWeight=300
+#10. Write the output of the following program: 
 
-if appleWeight < orangeWeight:
-    print('orange are heavier')
+Address = 'kathamandu'
+Address = 'khotang'
+print (Address)
+print (Address)
+
+#11. Write the output of the following program:
+
+books = 2
+if books < 6:
+    books = books + 6 
+    print('you bought more books')
+
+print(books)
+
+#12. Write the output of the following program:
+
+piece = 4
+
+if piece > 4:
+    print('enough')
 else:
-    print('apples are heavier')
+    print('not enough')
+    piece = piece + 1
+
+print(piece)
+'''
+
+grade6 = [1,2,3,4]
+
+#for item in grade6:
+  # print(item)
+
+#for i in range(0,4):
+    #print(grade6[i])
+
+#for i in range(0,11):
+    #print(i)
+
+# write a program to print all even numbers from zero to ten. 
+#for i in range(1,10,2):
+ #   print(i)
+
+'''
+# List and Tuples :
+
+List  are the containers to store a set of values of any type. It is mutable(changeable).
+Eg: 
+L = [ “halesi”, “youme”, 50, False]
+
+L [  : 2 ]  →  “youme”
+L [ 1 : 3 ]  →  “youme”, 50
+
+List methods:
+		  Consider a list ;
+
+	L1=[1,5,3,7,10,9]
+
+sort():  sorting the data in a sequence
+reverse(): reverse the data inside a list
+append(data): add the data at last
+insert(index, data): add the data in a desired index position
+pop():  remove the data placed at last
+pop(index): remove the data at given index 
+remove(data): remove the given data
+
+AtLast, print(L1) for output after using above method
+L1.sort	→  [1,3,5,7,9,10]
+L1.reverse 	→  [9,10,7,3,5,1]
+L1.append(8)  → adds 8 at the end of the list
+L1.insert(3,11)  → add 11 at index 3 –(position, data)	
+L1.pop(2)	   →  will remove element at index 2 and returns its value
+L1.remove(9)   → remove 9 from the list
 
 
-#Practical Exam
-#1. write a program to input two different numbers and find the greatest among them.
-#2. write a program to check whether a number is odd or even.
-#3. Write a program to input two different number and find sum and difference.
-#4. write a program to find the area of rectangle.
-#5. Write a program to find simple ineterst. [ si = (  principal *time* rate)/100]
+'''
+# make a report card of your third term exam
+# 80 --> distinction
+# 60 --> first division
+#50 --> second
+#40 --> third division
+#fail
+'''
+english = int(input('enter marks of english:'))
+computer = int(input('enter marks of computer:'))
+math = int(input('enter marks of math:'))
+
+
+
+total = english + computer + math
+
+#print(f'the total marks is : {total} ' )
+
+print( 'the total marks is:' + str(total))
+
+average = total / 3
+print( 'the average marks is:' + str(average))
+
+
+
+if english >=40 and computer>=40 and math>=40:
+    print('pass')
+
+    if average>=90:
+        print('pass in grade A+ ')
+    elif  average>=80:
+        print('pass in grade A')
+    elif  average>=70:
+        print('pass in grade B+')
+    elif  average>=60:
+        print('pass in grade B')
+    elif  average>=50:
+        print('pass in grade C+')
+    else:
+        print('pass in grade C')
+        
+else:
+    print('fail')
+
+'''
+
+name = 'youme'
+students = 250
+
+print('my name is ' + name + " and total students is " +  str(students))
+
+print(f" my name is {name} and total students is {students} ")

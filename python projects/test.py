@@ -1,9 +1,5 @@
 
-#1. write a program to check whether a number is odd or even.
-#2. write a program to check whether a number is postive or negative or zero.
-#3. write a program to input two different numbers and find the greatest number among them.
-#4. write a program to input three different numbers and find sum and product.
-#5. write a program to find simple interest.[ si = (principal*time*rate)/100 ] 
+
 
 #3. write the output of the following program:
 
@@ -108,3 +104,12 @@ elif score >= 60:
 else:
     grade = 'F'
 print (grade)
+
+#Practical Assignment
+#1. write a program to check whether a number is odd or even.
+#2. write a program to check whether a number is postive or negative or zero.
+#3. write a program to input two different numbers and 
+    # find the greatest number among them.
+#4. Write a program to check whether a number is divisible by 3 or 4 or both.
+#5. write a program to input marks of three different subject and 
+    # check whether a student is pass or fail.  Also find the division of pass mark. 

@@ -213,14 +213,14 @@ else:
 # write a program to check whether a number is odd or even.
 
 #write the output of the following program.
-
+'''
 lis=[165,168,170,178]
 
 for i in range(0,len(lis)): 
     if lis[i]==168 or lis[i]==178:
         print(lis[i])
 
-         
+     '''    
       
 
 
@@ -244,6 +244,7 @@ grade8()
 #1. write a program to input two different numbers and find the greatest among them.
 #2. write a program to check whether a number is postive or negative or zero.
 #3 write the output of the program:
+'''
 youme=[2,7,8]
 for i in range(0,len(youme)):
     if not youme[i] ==7: 
@@ -276,3 +277,78 @@ for i in range(0,5):
 print(count)
 print('pairs have diff colors')
 
+'''
+
+height= [165, 168, 170, 172, 174]
+
+for i in range(0,5):
+    if(height[i] ==168) and (height[i]==174):
+        print(height[i])
+ 
+    #0
+    #if ( 165 == 168 ) and (165 == 174 ):  
+    # no output
+
+    #1
+    #if (168 == 168) and (168 ==  174):
+    # no output
+
+    #2
+    #  #if (170 == 168) and (170 ==  174):
+    # no output
+
+    #3
+    #  #if (172 == 168) and (172 ==  174):
+    # no output
+
+    #4
+    #if (174 == 168) and (174 ==  174):
+    # no output
+        
+
+#Functions:
+'''
+def grade8(number):
+    print('there are ' + str(number) +  ' students')
+
+grade8(12)
+grade8(20)
+grade8(50)
+'''
+'''
+num = int(input('Enter a number'))
+
+for i in range(1,11):
+    print(i * num)
+
+    '''
+'''
+for i in range(0,10):
+    print('computer')
+    '''
+'''
+num = int(input("Enter a number"))
+
+remainder = num % 2
+
+if remainder == 0:
+    print('even')
+else:
+    print('odd')
+'''
+
+#Q.4 write a program to find the sum of 10 natural numbers.
+
+sum=0
+
+for i in range(1,11):
+    sum = sum + i
+    
+print(sum)
+   
+   
+
+
+
+
+   

@@ -31,7 +31,7 @@ print(var1*5)'''
 #list 
 g7=['nelson', 'bibesh','prajwol']
 
-print(g7)
+#print(g7)
 
 '''
 #List methods 
@@ -236,7 +236,7 @@ else:
 
 
 #functions
-
+'''
 
 def grade7(firstName, lastName ,grade):
     print('my name is ' + firstName + ' ' +  lastName )
@@ -249,7 +249,7 @@ def grade7(total_students):
     return total_students * 10
 
 #print(grade7(10))
-
+'''
 
 #talking about git and github
 '''
@@ -264,7 +264,8 @@ print('hhhhhh')
 check()
 print('i am don')
 '''
-
+#
+'''
 def order(num):
     total=0
 
@@ -283,6 +284,37 @@ for menu in menuList:
 
 print('thats' +str(menuCount) + 'item total of' + str(order(menuCount)) + 'yen' )
 
+'''
+
+#
+'''
+num = 0
+for i in range (0,5):
+   num = num + i
+   #num = 0  + 0  = 0
+   #num = 0  + 1  = 1
+   #num = 1  + 2  = 3
+   #num = 3  + 3  = 6
+   #num = 6  + 4  = 10
+   
 
 
+print(num)
+'''
+#function
+'''
+def khusap(grade):
+    print('i read in grade' + str(grade))
+
+khusap(7)
+khusap(8)
+'''
+#function
+
+print('we are into level 3')
+
+def grade7(number):
+    return number
+    
+print(grade7(10))
 
